@@ -677,32 +677,6 @@
 		OBJ_1852 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_943 /* pb_decode.c */; };
 		OBJ_1853 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_944 /* pb_encode.c */; };
 		OBJ_1855 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::BoringSSL::Product /* BoringSSL.framework */; };
-		OBJ_1862 /* ArgumentConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1034 /* ArgumentConvertible.swift */; };
-		OBJ_1863 /* ArgumentDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1035 /* ArgumentDescription.swift */; };
-		OBJ_1864 /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1036 /* ArgumentParser.swift */; };
-		OBJ_1865 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1037 /* Command.swift */; };
-		OBJ_1866 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1038 /* CommandRunner.swift */; };
-		OBJ_1867 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1039 /* CommandType.swift */; };
-		OBJ_1868 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1040 /* Commands.swift */; };
-		OBJ_1869 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1041 /* Error.swift */; };
-		OBJ_1870 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1042 /* Group.swift */; };
-		OBJ_1877 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1043 /* Package.swift */; };
-		OBJ_1883 /* EchoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* EchoProvider.swift */; };
-		OBJ_1884 /* echo.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* echo.grpc.swift */; };
-		OBJ_1885 /* echo.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* echo.pb.swift */; };
-		OBJ_1886 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* main.swift */; };
-		OBJ_1888 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = Commander::Commander::Product /* Commander.framework */; };
-		OBJ_1889 /* SwiftGRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::SwiftGRPC::Product /* SwiftGRPC.framework */; };
-		OBJ_1890 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobuf::Product /* SwiftProtobuf.framework */; };
-		OBJ_1891 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::CgRPC::Product /* CgRPC.framework */; };
-		OBJ_1892 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::BoringSSL::Product /* BoringSSL.framework */; };
-		OBJ_1905 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_507 /* main.swift */; };
-		OBJ_1912 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_505 /* main.swift */; };
-		OBJ_1914 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = Commander::Commander::Product /* Commander.framework */; };
-		OBJ_1915 /* SwiftGRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::SwiftGRPC::Product /* SwiftGRPC.framework */; };
-		OBJ_1916 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobuf::Product /* SwiftProtobuf.framework */; };
-		OBJ_1917 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::CgRPC::Product /* CgRPC.framework */; };
-		OBJ_1918 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::BoringSSL::Product /* BoringSSL.framework */; };
 		OBJ_1928 /* ByteBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ByteBuffer.swift */; };
 		OBJ_1929 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Call.swift */; };
 		OBJ_1930 /* CallError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CallError.swift */; };
@@ -739,30 +713,6 @@
 		OBJ_1962 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobuf::Product /* SwiftProtobuf.framework */; };
 		OBJ_1963 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::CgRPC::Product /* CgRPC.framework */; };
 		OBJ_1964 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::BoringSSL::Product /* BoringSSL.framework */; };
-		OBJ_1973 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_1984 /* BasicEchoTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1006 /* BasicEchoTestCase.swift */; };
-		OBJ_1985 /* ChannelArgumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1007 /* ChannelArgumentTests.swift */; };
-		OBJ_1986 /* ClientCancellingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1008 /* ClientCancellingTests.swift */; };
-		OBJ_1987 /* ClientTestExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1009 /* ClientTestExample.swift */; };
-		OBJ_1988 /* ClientTimeoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1010 /* ClientTimeoutTests.swift */; };
-		OBJ_1989 /* CompletionQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1011 /* CompletionQueueTests.swift */; };
-		OBJ_1990 /* ConnectionFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1012 /* ConnectionFailureTests.swift */; };
-		OBJ_1991 /* EchoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1013 /* EchoProvider.swift */; };
-		OBJ_1992 /* EchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1014 /* EchoTests.swift */; };
-		OBJ_1993 /* GRPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1015 /* GRPCTests.swift */; };
-		OBJ_1994 /* MetadataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1016 /* MetadataTests.swift */; };
-		OBJ_1995 /* ServerCancellingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1017 /* ServerCancellingTests.swift */; };
-		OBJ_1996 /* ServerTestExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1018 /* ServerTestExample.swift */; };
-		OBJ_1997 /* ServerThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1019 /* ServerThrowingTests.swift */; };
-		OBJ_1998 /* ServerTimeoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1020 /* ServerTimeoutTests.swift */; };
-		OBJ_1999 /* ServiceClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1021 /* ServiceClientTests.swift */; };
-		OBJ_2000 /* TestKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1022 /* TestKeys.swift */; };
-		OBJ_2001 /* echo.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1023 /* echo.grpc.swift */; };
-		OBJ_2002 /* echo.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1024 /* echo.pb.swift */; };
-		OBJ_2004 /* SwiftGRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::SwiftGRPC::Product /* SwiftGRPC.framework */; };
-		OBJ_2005 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobuf::Product /* SwiftProtobuf.framework */; };
-		OBJ_2006 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::CgRPC::Product /* CgRPC.framework */; };
-		OBJ_2007 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftGRPC::BoringSSL::Product /* BoringSSL.framework */; };
 		OBJ_2016 /* AnyMessageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1084 /* AnyMessageStorage.swift */; };
 		OBJ_2017 /* AnyUnpackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1085 /* AnyUnpackError.swift */; };
 		OBJ_2018 /* BinaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1086 /* BinaryDecoder.swift */; };
@@ -839,57 +789,6 @@
 		OBJ_2089 /* timestamp.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1157 /* timestamp.pb.swift */; };
 		OBJ_2090 /* type.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1158 /* type.pb.swift */; };
 		OBJ_2091 /* wrappers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1159 /* wrappers.pb.swift */; };
-		OBJ_2098 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1161 /* Package.swift */; };
-		OBJ_2104 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1046 /* Array+Extensions.swift */; };
-		OBJ_2105 /* CodePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1047 /* CodePrinter.swift */; };
-		OBJ_2106 /* Descriptor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1048 /* Descriptor+Extensions.swift */; };
-		OBJ_2107 /* Descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1049 /* Descriptor.swift */; };
-		OBJ_2108 /* FieldNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1050 /* FieldNumbers.swift */; };
-		OBJ_2109 /* Google_Protobuf_Compiler_CodeGeneratorResponse+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1051 /* Google_Protobuf_Compiler_CodeGeneratorResponse+Extensions.swift */; };
-		OBJ_2110 /* Google_Protobuf_SourceCodeInfo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1052 /* Google_Protobuf_SourceCodeInfo+Extensions.swift */; };
-		OBJ_2111 /* NamingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1053 /* NamingUtils.swift */; };
-		OBJ_2112 /* ProtoFileToModuleMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1054 /* ProtoFileToModuleMappings.swift */; };
-		OBJ_2113 /* ProvidesLocationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1055 /* ProvidesLocationPath.swift */; };
-		OBJ_2114 /* ProvidesSourceCodeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1056 /* ProvidesSourceCodeLocation.swift */; };
-		OBJ_2115 /* SwiftLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1057 /* SwiftLanguage.swift */; };
-		OBJ_2116 /* SwiftProtobufInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1058 /* SwiftProtobufInfo.swift */; };
-		OBJ_2117 /* SwiftProtobufNamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1059 /* SwiftProtobufNamer.swift */; };
-		OBJ_2118 /* UnicodeScalar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1060 /* UnicodeScalar+Extensions.swift */; };
-		OBJ_2119 /* descriptor.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1061 /* descriptor.pb.swift */; };
-		OBJ_2120 /* plugin.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1062 /* plugin.pb.swift */; };
-		OBJ_2121 /* swift_protobuf_module_mappings.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1063 /* swift_protobuf_module_mappings.pb.swift */; };
-		OBJ_2123 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobuf::Product /* SwiftProtobuf.framework */; };
-		OBJ_2130 /* CommandLine+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1065 /* CommandLine+Extensions.swift */; };
-		OBJ_2131 /* Descriptor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1066 /* Descriptor+Extensions.swift */; };
-		OBJ_2132 /* EnumGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1067 /* EnumGenerator.swift */; };
-		OBJ_2133 /* ExtensionSetGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1068 /* ExtensionSetGenerator.swift */; };
-		OBJ_2134 /* FieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1069 /* FieldGenerator.swift */; };
-		OBJ_2135 /* FileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1070 /* FileGenerator.swift */; };
-		OBJ_2136 /* FileIo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1071 /* FileIo.swift */; };
-		OBJ_2137 /* GenerationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1072 /* GenerationError.swift */; };
-		OBJ_2138 /* GeneratorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1073 /* GeneratorOptions.swift */; };
-		OBJ_2139 /* Google_Protobuf_DescriptorProto+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1074 /* Google_Protobuf_DescriptorProto+Extensions.swift */; };
-		OBJ_2140 /* Google_Protobuf_FileDescriptorProto+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1075 /* Google_Protobuf_FileDescriptorProto+Extensions.swift */; };
-		OBJ_2141 /* MessageFieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1076 /* MessageFieldGenerator.swift */; };
-		OBJ_2142 /* MessageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1077 /* MessageGenerator.swift */; };
-		OBJ_2143 /* MessageStorageClassGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1078 /* MessageStorageClassGenerator.swift */; };
-		OBJ_2144 /* OneofGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1079 /* OneofGenerator.swift */; };
-		OBJ_2145 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1080 /* StringUtils.swift */; };
-		OBJ_2146 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1081 /* Version.swift */; };
-		OBJ_2147 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1082 /* main.swift */; };
-		OBJ_2149 /* SwiftProtobufPluginLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobufPluginLibrary::Product /* SwiftProtobufPluginLibrary.framework */; };
-		OBJ_2150 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobuf::Product /* SwiftProtobuf.framework */; };
-		OBJ_2158 /* Generator-Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_495 /* Generator-Client.swift */; };
-		OBJ_2159 /* Generator-Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_496 /* Generator-Methods.swift */; };
-		OBJ_2160 /* Generator-Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_497 /* Generator-Names.swift */; };
-		OBJ_2161 /* Generator-Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_498 /* Generator-Server.swift */; };
-		OBJ_2162 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_499 /* Generator.swift */; };
-		OBJ_2163 /* StreamingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_500 /* StreamingType.swift */; };
-		OBJ_2164 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_501 /* io.swift */; };
-		OBJ_2165 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_502 /* main.swift */; };
-		OBJ_2166 /* options.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_503 /* options.swift */; };
-		OBJ_2168 /* SwiftProtobufPluginLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobufPluginLibrary::Product /* SwiftProtobufPluginLibrary.framework */; };
-		OBJ_2169 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftProtobuf::SwiftProtobuf::Product /* SwiftProtobuf.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -4490,6 +4389,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_2012 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */;
 			buildPhases = (
+				17680FFCA96CF2E5766C0FAB /* ShellScript */,
 				8E1B3BB9BDBEA31B5008E91F /* ShellScript */,
 				OBJ_2015 /* Sources */,
 				OBJ_2092 /* Frameworks */,
@@ -4531,6 +4431,24 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		17680FFCA96CF2E5766C0FAB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swift package resolve";
+			showEnvVarsInLog = 1;
+		};
 		8E1B3BB9BDBEA31B5008E91F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5509,256 +5427,6 @@
 			};
 			name = Release;
 		};
-		OBJ_1859 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/Commander_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.Commander;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Commander;
-			};
-			name = Debug;
-		};
-		OBJ_1860 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/Commander_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.Commander;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Commander;
-			};
-			name = Release;
-		};
-		OBJ_1874 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_1875 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		OBJ_1880 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-					"$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/Echo_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Echo;
-			};
-			name = Debug;
-		};
-		OBJ_1881 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-					"$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/Echo_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Echo;
-			};
-			name = Release;
-		};
-		OBJ_1902 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/RootsEncoder_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = RootsEncoder;
-			};
-			name = Debug;
-		};
-		OBJ_1903 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/RootsEncoder_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = RootsEncoder;
-			};
-			name = Release;
-		};
-		OBJ_1909 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-					"$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/Simple_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Simple;
-			};
-			name = Debug;
-		};
-		OBJ_1910 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-					"$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/Simple_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Simple;
-			};
-			name = Release;
-		};
 		OBJ_1925 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5827,102 +5495,6 @@
 			};
 			name = Release;
 		};
-		OBJ_1970 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_1971 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		OBJ_1976 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		OBJ_1977 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		OBJ_1981 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-					"$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/SwiftGRPCTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = SwiftGRPCTests;
-			};
-			name = Debug;
-		};
-		OBJ_1982 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-					"$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/SwiftGRPCTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC-Carthage.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = SwiftGRPCTests;
-			};
-			name = Release;
-		};
 		OBJ_2013 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5970,176 +5542,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.2;
 				TARGET_NAME = SwiftProtobuf;
-			};
-			name = Release;
-		};
-		OBJ_2095 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		OBJ_2096 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		OBJ_2101 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/SwiftProtobufPluginLibrary_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.SwiftProtobufPluginLibrary;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftProtobufPluginLibrary;
-			};
-			name = Debug;
-		};
-		OBJ_2102 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/SwiftProtobufPluginLibrary_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.SwiftProtobufPluginLibrary;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftProtobufPluginLibrary;
-			};
-			name = Release;
-		};
-		OBJ_2127 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/protoc_gen_swift_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = "protoc-gen-swift";
-			};
-			name = Debug;
-		};
-		OBJ_2128 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/protoc_gen_swift_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = "protoc-gen-swift";
-			};
-			name = Release;
-		};
-		OBJ_2155 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/protoc_gen_swiftgrpc_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "protoc-gen-swiftgrpc";
-			};
-			name = Debug;
-		};
-		OBJ_2156 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8685264541512054949",
-				);
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/protoc_gen_swiftgrpc_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "protoc-gen-swiftgrpc";
 			};
 			name = Release;
 		};
